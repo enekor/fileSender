@@ -1,0 +1,19 @@
+* text=auto
+
+*.java text
+*.gradle text
+*.properties text
+*.xml text
+*.md text
+*.sh text eol=lf
+gradlew text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+windows/README-WINDOWS.txt text eol=crlf
+
+*.jar binary
+*.apk binary
+*.zip binary
+*.msi binary
+*.ico binary
+*.png binary

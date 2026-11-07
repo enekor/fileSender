@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal">#0F766E</color>
+    <color name="teal_dark">#115E59</color>
+    <color name="teal_soft">#E6F4F1</color>
+    <color name="receive">#0E8F70</color>
+    <color name="send">#D97706</color>
+    <color name="bg">#F7F5EF</color>
+    <color name="card">#FFFFFF</color>
+    <color name="ink">#1F2937</color>
+    <color name="ink_soft">#4B5563</color>
+    <color name="muted">#6B7280</color>
+    <color name="line">#E5E7EB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="error">#B91C1C</color>
+</resources>

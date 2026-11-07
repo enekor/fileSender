@@ -1,0 +1,10 @@
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+windows/build/
+windows/dist/
+windows/testdata/
+windows/tools/

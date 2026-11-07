@@ -58,20 +58,20 @@ Los mismos valores están en los archivos `.sha256` de `dist/`.
 ## Publicar los instalables en GitHub Releases
 
 Los binarios ya están versionados en `dist/`, así que también se pueden descargar
-directamente del repositorio. Para que aparezcan como *assets* de una Release:
+directamente del repositorio. La etiqueta `v1.0.0` ya está creada en el
+repositorio local. Para que los archivos aparezcan como *assets* de una Release:
 
-1. Sube el repositorio a GitHub.
-2. Crea una etiqueta y una Release:
+1. Sube el repositorio y la etiqueta a GitHub (con el repo vacío ya creado):
 
    ```powershell
-   git tag v1.0.0
-   git push origin main
+   git remote add origin https://github.com/UTILIZADOR/REPOSITORIO.git
+   git push -u origin main
    git push origin v1.0.0
    ```
 
-3. En GitHub: **Releases → Draft a new release**.
-4. Selecciona la etiqueta `v1.0.0`, pon el título `FileSender 1.0` y publica.
-5. Arrastra a la Release estos archivos desde `dist/`:
+2. En GitHub: **Releases → Draft a new release**.
+3. Selecciona la etiqueta `v1.0.0`, pon el título `FileSender 1.0` y publica.
+4. Arrastra a la Release estos archivos desde `dist/`:
    - `FileSender-1.0.apk`
    - `FileSender-Windows-1.0-Setup.msi`
    - `FileSender-Windows-1.0.zip`
